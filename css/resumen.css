@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-
+@font-face {
+    font-family: Blacksword;
+    src: url(../font/Blacksword.otf);
+}
+@font-face {
+    font-family: HelveticaNeueLTStd-Roman;
+    src: url(../font/HelveticaNeueLTStd-Roman.otf);
+}
+@font-face {
+    font-family: BodoniStd;
+    src: url(../font/BodoniStd.otf);
+}
 .myName {
 font-family:"Blacksword","Bodoni Std", Helvetica, calibri, Arial, sans-serif;
     padding-left: 10px;

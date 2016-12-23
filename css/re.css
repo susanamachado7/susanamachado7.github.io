@@ -1,6 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: Blacksword;
+    src: url(../font/Blacksword.otf);
+}
+@font-face {
+    font-family: HelveticaNeueLTStd-Roman;
+    src: url(../font/HelveticaNeueLTStd-Roman.otf);
+}
+@font-face {
+    font-family: BodoniStd;
+    src: url(../font/BodoniStd.otf);
+}
+
 .myName {
 font-family:"Blacksword","Bodoni Std", Helvetica, calibri, Arial, sans-serif;
     padding-left: 10px;
@@ -300,5 +313,4 @@ transition:background .3s ease-in-out}
 	 0%,100%{-moz-transform:scale(1);
 	 transform:scale(1)}50%{-moz-transform:scale(1.2);
 	 transform:scale(1.2)}}.content-section{padding-top:100px}
-
 
